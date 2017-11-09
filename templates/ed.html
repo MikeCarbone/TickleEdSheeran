@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>Tickle Ed Sheeran</title>
 	<link href="https://fonts.googleapis.com/css?family=Vollkorn+SC" rel="stylesheet">
-	<link rel="stylesheet" type="text/css" href="prettyEd.css">
+	<link rel="stylesheet" type="text/css" href="{{ static_url('static/prettyEd.css') }}">
 </head>
 <body>
 		<h1 id="title">tickle ed sheeran</h1>
-		<img id="sad" onmousemove="beHappy()" src="angryEd.jpg">
-		<img id="smiles" onclick="beSad()" src="happyEd.jpg" style="display: none">
+		<img id="sad" onmousemove="beHappy()" src="{{ static_url('static/angryEd.jpg') }}">
+		<img id="smiles" onclick="beSad()" src="{{ static_url('static/happyEd.jpg') }}" style="display: none">
 		<h1 id="byline">created by <a href="http://twitter.com/themcarbone" target="_blank">mike carbone</a> and <a href="http://twitter.com/aaronbartusk" target="_blank">aaron bartuska</a></h1>
-		<audio src="giggles.mp3" id="giggles" type="audio/mp3"></audio>
+		<audio src="{{ static_url('static/giggles.mp3') }}" id="giggles" type="audio/mp3"></audio>
 		
 </body>
-<script type="text/javascript" src="work.js"></script>
+<script type="text/javascript" src="{{ static_url('static/work.js') }}"></script>
 </html>
