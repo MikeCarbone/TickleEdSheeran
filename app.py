@@ -1,6 +1,7 @@
 import tornado.ioloop
 import tornado.web
 import tornado.httpserver
+import os.path
 
 class MainHandler(tornado.web.RequestHandler):
 	def get(self):
