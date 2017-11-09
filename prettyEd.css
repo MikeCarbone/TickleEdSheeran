@@ -1,0 +1,44 @@
+*{
+	padding: 0;
+	margin: 0;
+	max-width: 100vw;
+	max-height: 100vh;
+}
+
+html{
+}
+
+body{
+	width: 100%;
+}
+
+img{
+	width: 100vw;
+	height: 100vh;
+}
+
+a{
+	text-decoration: none;
+	color: #c0d6f9;
+	text-shadow: 1px 1px 1px black;
+}
+
+#title{
+	position: absolute;
+	font-family: 'Vollkorn SC', Verdana, sans-serif;
+	color: white;
+	text-align: left;
+	font-size: 48px;
+	margin-left: 10px;
+	width: 100%;
+	text-shadow: 3px 3px 3px black;
+}
+
+#byline{
+	position: absolute;
+	font-family: 'Vollkorn SC', Verdana, sans-serif;
+	color: white;
+	font-size: 14px;
+	bottom: 8px;
+	right: 16px;
+}
